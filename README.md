@@ -20,6 +20,23 @@ This project implements a Sudoku solver that detects, extracts, and solves Sudok
 
 ## 2. Source Code
 The source code is organized as follows:
+sudoku-solver/
+│
+├── model-OCR.h5                   # Pre-trained OCR model for digit recognition
+├── solver.py                      # Backtracking algorithm for solving Sudoku puzzles
+├── main.py                        # Main script to process images and run the pipeline
+├── image/
+│   ├── sudoku1.jpg     
+│   ├── sudoku2.jpg
+│   ├── sudoku3.jpg
+|   ├── sudoku4.jpg
+│   ├── sudoku5.jpg     
+│   ├── sudoku6.jpg
+│   ├── sudoku7.jpg
+|   ├── sudoku8.jpg
+│
+├── requirements.txt               # Required Python packages
+└── README.md                      # Project documentation
 
 
 
@@ -51,9 +68,14 @@ The source code is organized as follows:
 
 ### Installation
 
+Clone the repository from GitHub
+
+Installing dependencies:
 pip install -r requirements.txt
 
+if the program doesn't work, there's probably a problem with the access paths. I advise you to set your absolute path for images and the ORC model.
 
+to run the code you need to run main in your console.
 
 ## 5. References and Documentation
 
