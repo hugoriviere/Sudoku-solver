@@ -24,7 +24,6 @@ The source code is organized as follows:
 ```plaintext
 sudoku-solver/
 │
-├── model-OCR.h5                   # Pre-trained OCR model for digit recognition
 ├── solver.py                      # Backtracking algorithm for solving Sudoku puzzles
 ├── main.py                        # Main script to process images and run the pipeline
 ├── image/
@@ -37,6 +36,9 @@ sudoku-solver/
 │   ├── sudoku7.jpg
 |   ├── sudoku8.jpg
 │
+├── model/
+│   ├──  model-OCR.h5              # Pre-trained OCR model for digit recognition
+|
 ├── requirements.txt               # Required Python packages
 └── README.md                      # Project documentation
 ```
