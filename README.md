@@ -20,6 +20,8 @@ This project implements a Sudoku solver that detects, extracts, and solves Sudok
 
 ## 2. Source Code
 The source code is organized as follows:
+
+```plaintext
 sudoku-solver/
 │
 ├── model-OCR.h5                   # Pre-trained OCR model for digit recognition
