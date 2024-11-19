@@ -58,9 +58,9 @@ sudoku-solver/
 | **Metric**                  | **Value**           |
 |-----------------------------|---------------------|
 | OCR Accuracy                | 96%                 |
-| Average Processing Time     | 4 s                 |
-| Memory Usage (Peak)         | 400 MB               |
-| Supported Image Sizes       | Up to 1920x1080    |
+| Average Processing Time     | 1.85 s              |
+| Memory Usage (Peak)         | 8.5 MB              |
+| Supported Image Sizes       | Up to 1920x1080     |
 
 ### Performance Analysis
 - The model shows robust accuracy on clean images but struggles slightly with blurred or noisy inputs.
