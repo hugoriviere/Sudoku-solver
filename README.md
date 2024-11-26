@@ -34,7 +34,7 @@ sudoku-solver/
 │   ├── sudoku5.jpg     
 │   ├── sudoku6.jpg
 │   ├── sudoku7.jpg
-|   ├── sudoku8.jpg
+|   ├── ...
 │
 ├── model/
 │   ├──  model-OCR.h5              # Pre-trained OCR model for digit recognition
