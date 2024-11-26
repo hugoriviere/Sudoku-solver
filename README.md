@@ -81,6 +81,8 @@ if the program doesn't work, there's probably a problem with the access paths. I
 
 to run the code you need to run main in your console.
 
+If you would to put your sudoku you have to upload your image in the image folder like others images.
+
 ## 5. References and Documentation
 
 ### Libraries Used
